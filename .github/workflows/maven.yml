@@ -23,5 +23,3 @@ jobs:
         distribution: 'adopt'
     - name: Build Book_Service with Maven
       run: mvn -B package --file Book_Service/pom.xml
-    - name: Build Book_Portal with Maven
-      run: mvn -B package --file Book_Portal/pom.xml
